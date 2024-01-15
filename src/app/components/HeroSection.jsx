@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section  className="lg:py-16" >
-     <div className='grid grid-cols-1 sm:grid-cols-12  md:grid-cols-12  '>
+     <div className='grid grid-cols-1 sm:grid-cols-12   '>
      <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -44,7 +44,7 @@ const HeroSection = () => {
          
         
         </h1>
-       <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+       <p className='text-[#ADB7BE] text-base sm:text-sm mb-6 lg:text-xl'>
 You can see my skills and technologies that I use every day.
        </p>
        <div>

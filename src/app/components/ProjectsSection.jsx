@@ -10,7 +10,7 @@ const projectsData = [
     title: "Tattoo Studio",
     description: "HTML Scss JavaScript ReactJS",
     image: "/images/pro1.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/WolfTattoo",
     previewUrl: "https://wolftattoo.netlify.app/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Ecommerce Website",
     description: "HTML Css JavaScript ReactJS",
     image: "/images/pro2.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://ddf-tech.netlify.app/",
     previewUrl: "https://ddf-tech.netlify.app/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Car Selling",
     description: "HTML Css JavaScript ReactJS",
     image: "/images/pro3.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/motocar ",
     previewUrl: "https://motocar17.netlify.app/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "FitHouse",
     description: "HTML Css JavaScript ReactJS",
     image: "/images/pro4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/FitHouse",
     previewUrl: "https://fithousee.netlify.app/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Zeus",
     description: "HTML Css JavaScript Vite ReactJS",
     image: "/images/pro5.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/zeus",
     previewUrl: "https://zeuuus.netlify.app/",
   },
@@ -55,7 +55,16 @@ const projectsData = [
     title: "API products",
     description: "NodeJS Express MongoDB",
     image: "/images/pro6.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/AljosaNj/pokusajapi",
+    previewUrl: "https://apiproductnamjestaj.cyclic.app/api/v1/products",
+  },
+   {
+    id: 7,
+    title: "Portfolio",
+    description: "NextJS",
+    image: "/images/hero23.jpg",
+    tag: ["All", "Next"],
     gitUrl: "https://github.com/AljosaNj/pokusajapi",
     previewUrl: "https://apiproductnamjestaj.cyclic.app/api/v1/products",
   },
@@ -93,13 +102,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React"
+          isSelected={tag === "React"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Next"
+          isSelected={tag === "Next"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

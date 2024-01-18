@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>HTML</li>
+        <li>CSS, Sass, Tailwind</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>NextJS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
       </ul>
     ),
   },
@@ -23,21 +23,15 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+
+          <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
-    ),
-  },
+
 ];
 
 
@@ -73,22 +67,16 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Front-End{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Back-End{" "}
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
-            </TabButton>
+       
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
@@ -102,3 +90,29 @@ const AboutSection = () => {
 }
 
 export default AboutSection
+
+
+/*
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+      </ul>
+    ),
+  },
+
+  <TabButton
+              selectTab={() => handleTabChange("certifications")}
+              active={tab === "certifications"}
+            >
+              {" "}
+              Certifications{" "}
+            </TabButton>
+
+   
+
+*/

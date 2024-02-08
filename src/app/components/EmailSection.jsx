@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/images/github2.png";
 import LinkedinIcon from "../../../public/images/linkedin2.png";
+import MessageIcon from "../../../public/images/message2.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -44,7 +45,7 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
@@ -56,11 +57,16 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/AljosaNj/">
          <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/">
              <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+           <Link  href="mailto:aljosaa.njezic@gmail.com"  >
+           
+             <Image src={MessageIcon} alt="Message Icon" />
+             
           </Link>
         </div>
       </div>
@@ -131,3 +137,6 @@ const EmailSection = () => {
 };
 
 export default EmailSection;
+
+
+/*href="mailto:aljosaa.njezic@gmail.com" */

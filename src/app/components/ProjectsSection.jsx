@@ -62,11 +62,29 @@ const projectsData = [
    {
     id: 7,
     title: "Portfolio",
-    description: "NextJS",
+    description: "NextJS, tailwindcss",
     image: "/images/hero23.jpg",
     tag: ["All", "Next"],
-    gitUrl: "https://github.com/AljosaNj/pokusajapi",
-    previewUrl: "https://apiproductnamjestaj.cyclic.app/api/v1/products",
+    gitUrl: "https://github.com/AljosaNj/anj-portfolio",
+    previewUrl: "https://anj-portfolio-eta.vercel.app/",
+  },
+    {
+    id: 8,
+    title: "Rapcult",
+    description: "NextJS , tailwindcss",
+    image: "/images/rapcult.jpeg",
+    tag: ["All", "Next"],
+    gitUrl: "https://github.com/AljosaNj/rapcult",
+    previewUrl: "https://rapcult.vercel.app/",
+  },
+     {
+    id: 9,
+    title: "GymClient",
+    description: "Mern",
+    image: "/images/gymclients.jpg",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/AljosaNj/GymClients",
+    previewUrl: "https://youtu.be/qjZn3WNh7uY?si=YXlZLhNG0iQ8R3iH",
   },
 
 ];

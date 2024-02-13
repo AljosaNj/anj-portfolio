@@ -54,7 +54,7 @@ You can see my skills and technologies that I use every day.
         <div  
         
          className='px-1 inline-block  py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-green-300 via-green-700  to-green-950 hover:bg-slate-800  text-white  mt-3' >
-        <a  href='anjcv.pdf' download >
+        <a   >
 
           <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2" > Download Cv 
           </span>

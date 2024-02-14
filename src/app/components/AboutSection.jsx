@@ -87,27 +87,3 @@ const AboutSection = () => {
 export default AboutSection
 
 
-/*
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>MongoDB</li>
-      </ul>
-    ),
-  },
-
-  <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
-            </TabButton>
-
-   
-
-*/

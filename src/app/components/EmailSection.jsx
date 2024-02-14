@@ -139,4 +139,3 @@ const EmailSection = () => {
 export default EmailSection;
 
 
-/*href="mailto:aljosaa.njezic@gmail.com" */

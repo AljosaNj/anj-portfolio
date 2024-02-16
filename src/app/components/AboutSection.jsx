@@ -54,7 +54,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold  mb-4  text-transparent  bg-clip-text bg-gradient-to-r from-green-700 to-green-300 ">About Me</h2>
           <p className="text-base lg:text-lg">
-             I'm a junior React developer and I've been learning Front-end web development for the last two years on my own. Some of the resources that I use for learning are platforms like Udemy, Pluralsight, YouTube, w3schools.​com, freeCodeCamp.​org, codepen.​io, 30secondsofcode.​org etc.
+             Im a junior React developer and Ive been learning Front-end web development for the last two years on my own. Some of the resources that I use for learning are platforms like Udemy, Pluralsight, YouTube, w3schools.​com, freeCodeCamp.​org, codepen.​io, 30secondsofcode.​org etc.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Tattoo Studio",
-    description: "HTML Scss JavaScript ReactJS",
+    description: "HTML SCSS JavaScript ReactJS",
     image: "/images/pro1.jpg",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/WolfTattoo",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Ecommerce Website",
-    description: "HTML Css JavaScript ReactJS",
+    description: "HTML CSS JavaScript ReactJS",
     image: "/images/pro2.jpg",
     tag: ["All", "React"],
     gitUrl: "https://ddf-tech.netlify.app/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Car Selling",
-    description: "HTML Css JavaScript ReactJS",
+    description: "HTML CSS JavaScript ReactJS",
     image: "/images/pro3.jpg",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/motocar ",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "FitHouse",
-    description: "HTML Css JavaScript ReactJS",
+    description: "HTML CSS JavaScript ReactJS",
     image: "/images/pro4.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/FitHouse",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Zeus",
-    description: "HTML Css JavaScript Vite ReactJS",
+    description: "HTML CSS JavaScript Vite ReactJS",
     image: "/images/pro5.jpg",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/zeus",

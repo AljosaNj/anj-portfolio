@@ -70,12 +70,12 @@ const projectsData = [
   },
     {
     id: 8,
-    title: "Rapcult",
-    description: "NextJS , tailwindcss",
-    image: "/images/rapcult.jpeg",
-    tag: ["All", "Next"],
-    gitUrl: "https://github.com/AljosaNj/rapcult",
-    previewUrl: "https://rapcult.vercel.app/",
+    title: "X-Social",
+    description: "MERN (Login: Sabaton, sabaton123)",
+    image: "/images/social-x.jpg",
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/AljosaNj/x-social",
+    previewUrl: "https://x-social.onrender.com/login",
   },
      {
     id: 9,

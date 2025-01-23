@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Ecommerce Website",
-    description: "MERN (admin: mirko@gmail.com , mirko1234)",
+    description: "MERN (admin: mirko@gmail.com , mirko1234) (free hosting, slow loading)",
     image: "/images/pro2.jpg",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/TechShop",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "FilmG",
-    description: "MERN",
+    description: "MERN (free hosting, slow loading)",
     image: "/images/pro3.png",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/filmg ",
@@ -63,7 +63,7 @@ const projectsData = [
     {
     id: 7,
     title: "X-Social",
-    description: "MERN (Login: Sabaton, sabaton123)",
+    description: "MERN (Login: Sabaton, sabaton123) (free hosting, slow loading)",
     image: "/images/social-x.jpg",
     tag: ["All", "React"],
     gitUrl: "https://github.com/AljosaNj/x-social",
